@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeOperations", "DateTimeOperations.csproj", "{BE783952-025B-4696-83E5-A7E98FCB161E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE783952-025B-4696-83E5-A7E98FCB161E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{BE783952-025B-4696-83E5-A7E98FCB161E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{BE783952-025B-4696-83E5-A7E98FCB161E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{BE783952-025B-4696-83E5-A7E98FCB161E}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D641150-EB9A-4AA9-B68F-200076AAE8E2}
+	EndGlobalSection
+EndGlobal

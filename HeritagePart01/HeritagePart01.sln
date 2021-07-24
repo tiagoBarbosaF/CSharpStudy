@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeritagePart01", "HeritagePart01.csproj", "{2B660907-96F7-4A99-927B-2D02C2213442}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B660907-96F7-4A99-927B-2D02C2213442}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{2B660907-96F7-4A99-927B-2D02C2213442}.Debug|anycpu.Build.0 = Debug|anycpu
+		{2B660907-96F7-4A99-927B-2D02C2213442}.Release|anycpu.ActiveCfg = Release|anycpu
+		{2B660907-96F7-4A99-927B-2D02C2213442}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC2FEB30-120B-4D26-9A1F-FC9671694DBF}
+	EndGlobalSection
+EndGlobal

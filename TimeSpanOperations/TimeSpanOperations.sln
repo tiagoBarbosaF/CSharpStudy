@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeSpanOperations", "TimeSpanOperations.csproj", "{B3AA84EE-72BA-464C-B771-DE208EE6946F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3AA84EE-72BA-464C-B771-DE208EE6946F}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{B3AA84EE-72BA-464C-B771-DE208EE6946F}.Debug|anycpu.Build.0 = Debug|anycpu
+		{B3AA84EE-72BA-464C-B771-DE208EE6946F}.Release|anycpu.ActiveCfg = Release|anycpu
+		{B3AA84EE-72BA-464C-B771-DE208EE6946F}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEFC6364-7B0A-4195-B6AE-4900E5383B97}
+	EndGlobalSection
+EndGlobal

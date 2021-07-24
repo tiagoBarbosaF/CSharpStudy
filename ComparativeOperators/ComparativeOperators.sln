@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparativeOperators", "ComparativeOperators.csproj", "{E13DC9E0-337B-47E3-A4EE-244F570D876E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E13DC9E0-337B-47E3-A4EE-244F570D876E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{E13DC9E0-337B-47E3-A4EE-244F570D876E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{E13DC9E0-337B-47E3-A4EE-244F570D876E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{E13DC9E0-337B-47E3-A4EE-244F570D876E}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {475C2308-0E39-4172-B6AC-C82D6F1B4941}
+	EndGlobalSection
+EndGlobal

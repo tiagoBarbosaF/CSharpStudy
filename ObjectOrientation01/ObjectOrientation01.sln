@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientation01", "ObjectOrientation01.csproj", "{8E09C087-BA62-4E85-916B-44BB793ED36E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E09C087-BA62-4E85-916B-44BB793ED36E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{8E09C087-BA62-4E85-916B-44BB793ED36E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{8E09C087-BA62-4E85-916B-44BB793ED36E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{8E09C087-BA62-4E85-916B-44BB793ED36E}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {725DA312-1940-407B-A810-40CB47B2CA08}
+	EndGlobalSection
+EndGlobal
