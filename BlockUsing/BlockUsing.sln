@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockUsing", "BlockUsing.csproj", "{831B096B-C2E2-4B1C-B69B-7CF2A1CF54AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{831B096B-C2E2-4B1C-B69B-7CF2A1CF54AA}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{831B096B-C2E2-4B1C-B69B-7CF2A1CF54AA}.Debug|anycpu.Build.0 = Debug|anycpu
+		{831B096B-C2E2-4B1C-B69B-7CF2A1CF54AA}.Release|anycpu.ActiveCfg = Release|anycpu
+		{831B096B-C2E2-4B1C-B69B-7CF2A1CF54AA}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7956B51A-A8CD-48CF-8AB4-63E7865E77D5}
+	EndGlobalSection
+EndGlobal
