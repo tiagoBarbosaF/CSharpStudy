@@ -1,0 +1,9 @@
+Maria Brown,3800.00
+Alex Green,4200.00
+Bob Grey,2500.00
+Anna White,1890.00
+Alex Black,3400.00
+Eduardo Rose,1980.00
+William Red,5200.00
+Tiago Barbosa,10200.00
+Alex Brown,800.00
