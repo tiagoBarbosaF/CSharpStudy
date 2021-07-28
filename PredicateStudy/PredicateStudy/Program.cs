@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using PredicateStudy.Entities;
+using System.Linq;
 
 namespace PredicateStudy
 {
@@ -15,48 +16,16 @@ namespace PredicateStudy
             list.Add(new Product("Tablet", 350.50));
             list.Add(new Product("HD Case", 80.90));
 
-            Action<Product> act = UpdatePrice;
-
-            Console.WriteLine("Using Action:");
-            list.ForEach(act);
-            foreach (Product p in list)
+            List<string> result = list.Select(NameUpper).ToList();
+            foreach(string s in result)
             {
-                Console.WriteLine(p);
-            }
-            Console.WriteLine();
-
-            Console.WriteLine("Using extern method");
-            list.ForEach(UpdatePrice);
-            foreach(Product p in list)
-            {
-                Console.WriteLine(p);
-            }
-            Console.WriteLine();
-
-            Console.WriteLine("Using lambda inline");
-            list.ForEach(p => { p.Price += p.Price * 0.1; });
-            foreach (Product p in list)
-            {
-                Console.WriteLine(p);
-            }
-            Console.WriteLine();
-
-
-            list.RemoveAll(ProductTest);
-            foreach(Product p in list)
-            {
-                Console.WriteLine(p);
+                Console.WriteLine(s);
             }
         }
 
-        static void UpdatePrice(Product p)
+        static string NameUpper(Product p)
         {
-            p.Price += p.Price * 0.1;
-        }
-
-        public static bool ProductTest(Product p)
-        {
-            return p.Price >= 100.00;
+            return p.Name.ToUpper();
         }
     }
 }
