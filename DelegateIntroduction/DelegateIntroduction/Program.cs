@@ -5,6 +5,7 @@ namespace DelegateIntroduction
 {
     delegate double BinaryNumericOperation(double n1, double n2);
     delegate double BinaryNumericOperation2(double n1);
+    delegate void BinaryNumericOperation3(double n1, double n2);
     class Program
     {
         static void Main(string[] args)
@@ -16,6 +17,11 @@ namespace DelegateIntroduction
             BinaryNumericOperation op2 = CalculationService.Max;
             BinaryNumericOperation2 op3 = CalculationService.Square;
 
+            BinaryNumericOperation3 op4 = CalculationService.ShowSum;
+            op4 += CalculationService.ShowMax;
+            op4(a, b);
+
+            Console.WriteLine();
             double result1 = op1(a, b);
             double result2 = op2(a, b);
             double result3 = op3(a);
